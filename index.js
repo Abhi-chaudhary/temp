@@ -33,7 +33,7 @@ delet.addEventListener('click', (e) => {
 modal.addEventListener('keydown', (e) => {
 
   let key = e.key;
-  if (key === '$') {
+  if (key === 'Enter') {
     flag = false;
     createTicket(color, textarea.value, shortid());
     modal.style.display = 'none'
